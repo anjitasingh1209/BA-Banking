@@ -1,4 +1,5 @@
 **Fund Transfer Feature – Banking App**
+
 **1. Introduction**
 This document defines the user stories and acceptance criteria for the Fund Transfer feature in a banking application. The objective is to enable customers to transfer money easily and securely.
 The acceptance criteria are defined using both:
@@ -6,7 +7,7 @@ The acceptance criteria are defined using both:
 •	BDD (Behavior Driven Development) method
 The user stories are also validated using the INVEST principle.
 ________________________________________
-2. **User Story 1 – Add Beneficiary**
+**2. User Story 1 – Add Beneficiary**
 User Story
 As a bank customer, I want to add a beneficiary so that I can transfer money to that account.
 ________________________________________
@@ -27,7 +28,7 @@ And clicks on Add Beneficiary
 Then the system should save the beneficiary  
 And show success message
 ________________________________________
-3. **User Story 2 – Transfer Money**
+**3. User Story 2 – Transfer Money**
 User Story
 As a bank customer, I want to transfer money to a beneficiary so that I can send funds easily.
 ________________________________________
@@ -51,7 +52,7 @@ Then the system should transfer money
 And show confirmation message  
 And update account balance
 ________________________________________
-4.** User Story 3 – View Transaction Confirmation**
+**4. User Story 3 – View Transaction Confirmation**
 User Story
 As a bank customer, I want to view transaction confirmation so that I can verify successful transfer.
 ________________________________________
@@ -71,7 +72,7 @@ And beneficiary name
 And amount  
 And date and time
 ________________________________________
-5.** INVEST Analysis**
+**5. INVEST Analysis**
 User Story: Transfer Money
 ________________________________________
 Independent
