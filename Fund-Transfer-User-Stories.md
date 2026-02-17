@@ -11,7 +11,7 @@ ________________________________________
 User Story
 As a bank customer, I want to add a beneficiary so that I can transfer money to that account.
 ________________________________________
-Acceptance Criteria – Simple Method
+**Acceptance Criteria – Simple Method**
 
 •	Customer should be able to enter beneficiary name
 •	Customer should be able to enter account number
@@ -20,7 +20,7 @@ Acceptance Criteria – Simple Method
 •	System should save beneficiary successfully
 •	System should display confirmation message
 ________________________________________
-Acceptance Criteria – BDD Method
+**Acceptance Criteria – BDD Method**
 
 Scenario: Add beneficiary successfully
 
@@ -31,11 +31,12 @@ Then the system should save the beneficiary
 And show success message
 ________________________________________
 **3. User Story 2 – Transfer Money**
+
 User Story
 
 As a bank customer, I want to transfer money to a beneficiary so that I can send funds easily.
 ________________________________________
-Acceptance Criteria – Simple Method
+**Acceptance Criteria – Simple Method**
 
 •	Customer should be able to select beneficiary
 •	Customer should be able to enter transfer amount
@@ -44,7 +45,7 @@ Acceptance Criteria – Simple Method
 •	System should show confirmation message
 •	System should update account balance
 ________________________________________
-Acceptance Criteria – BDD Method
+**Acceptance Criteria – BDD Method**
 
 Scenario: Successful money transfer
 
@@ -58,18 +59,19 @@ And show confirmation message
 And update account balance
 ________________________________________
 **4. User Story 3 – View Transaction Confirmation**
+
 User Story
 
 As a bank customer, I want to view transaction confirmation so that I can verify successful transfer.
 ________________________________________
-Acceptance Criteria – Simple Method
+**Acceptance Criteria – Simple Method**
 
 •	System should display transaction ID
 •	System should display beneficiary name
 •	System should display transfer amount
 •	System should display date and time
 ________________________________________
-Acceptance Criteria – BDD Method
+**Acceptance Criteria – BDD Method**
 
 Scenario: View transaction confirmation
 
